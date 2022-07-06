@@ -1,11 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import HelloWorld from './src/components/helloworld';
+import Jobs from './src/components/jobs';
+import JobList from './src/components/JobOffer';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <HelloWorld></HelloWorld>
+      <JobList></JobList>
     </View>
   );
 }
@@ -17,4 +20,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  h1:{
+    fontSize: 30,
+    color: 'black',
+  }
 });

@@ -15,12 +15,16 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-native": "0.68.2",
+    "react-native-datatable": "^0.0.8",
+    "react-native-paper": "^4.12.2",
+    "react-native-table-component": "^1.2.2",
     "react-native-web": "0.17.7"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.66.13",
+    "@types/react-native-table-component": "^1.2.4",
     "typescript": "~4.3.5"
   },
   "private": true
